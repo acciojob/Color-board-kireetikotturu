@@ -13,7 +13,7 @@
 			box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 		});
 
-		box.addEventListener("mouseleave", function(){
+		box.addEventListener("mouseout", function(){
 			setTimeout(function() {
 				box.style.backgroundColor = "rgb(29, 29, 29)"
 			}, 1000);
