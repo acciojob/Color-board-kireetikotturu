@@ -16,6 +16,6 @@
 		box.addEventListener("mouseleave", function(){
 			setTimeout(function() {
 				box.style.backgroundColor = "rgb(29, 29, 29)"
-			}, 1000)
+			}, 1000);
 		});
 	}
