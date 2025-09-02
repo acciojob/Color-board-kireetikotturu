@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.box-container{
+  background-color: black;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  padding:20px;
+  gap: 5px;
+}
+.box{
+  background-color: grey;
+}
