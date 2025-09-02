@@ -1,10 +1,10 @@
 //your JS code here. If required.
 let box1 = document.querySelector(".box-1");
-	let cont = document.querySelector(".box-container");
+	let cont = document.querySelector(".container");
 
 	for (let i = 0; i < 900; i++) {
 		let box = document.createElement("div");
-		box.classList.add("box");
+		box.classList.add("square");
 		cont.appendChild(box);
 
 		let r = Math.floor(Math.random() * 255);
