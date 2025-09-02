@@ -5,10 +5,11 @@
   width: 500px;
   display: grid;
   grid-template-columns: repeat(40, 1fr);
-  grid-template-rows: repeat(20, 1fr);
+  grid-template-rows: repeat(40, 1fr);
   padding:20px;
   gap: 5px;
 }
 .square{
   background-color: rgb(29, 29, 29);
+	 transition: background-color 0.5s ease; 
 }
