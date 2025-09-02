@@ -15,7 +15,10 @@
 		});
 
 		box.addEventListener("mouseleave", function(){
-			box.style.backgroundColor = "rgb(29, 29, 29)";
+			setTimeout(() => {
+				box.style.backgroundColor = "rgb(29, 29, 29)"
+			}, 1000);
+			
 			});
 
 
