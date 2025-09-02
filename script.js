@@ -6,7 +6,7 @@
 		box.classList.add("square");
 		cont.appendChild(box);
 
-		box.addEventListener("mouseenter", function () {
+		box.addEventListener("mouseover", function () {
 			const r = Math.floor(Math.random() * 255);
 			const g = Math.floor(Math.random() * 255);
 			const b = Math.floor(Math.random() * 255);
