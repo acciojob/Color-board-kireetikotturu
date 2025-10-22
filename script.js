@@ -3,7 +3,7 @@
 
 for(let i=0; i<800; i++){
   let boxDiv = document.createElement("div");
-  boxDiv.setAttribute("class", "boxes");
+  boxDiv.setAttribute("class", "square");
   container.appendChild(boxDiv);
 
   boxDiv.addEventListener("mouseover", ()=>{
