@@ -1,15 +1,22 @@
 /*  your css code here. If applicable */
-.container{
-  background-color: black;
-  height: 500px;
-  width: 500px;
-  display: grid;
-  grid-template-columns: repeat(40, 1fr);
-  grid-template-rows: repeat(40, 1fr);
-  padding:20px;
-  gap: 5px;
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
-.square{
-  background-color: rgb(29, 29, 29);
-  transition: background-color 1s ease;
+.container{
+	width: 80%;
+	background-color: black;
+	height: 80%;
+	display: grid;
+	grid-template-columns: repeat(40, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	gap: 4px;
+	padding: 30px;
+}
+
+.boxes{
+	background-color: #1D1D1D;
 }
